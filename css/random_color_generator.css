@@ -1,0 +1,41 @@
+* { 
+    box-sizing: border-box;
+    color: pink;
+    font-weight: 700;
+    font-size: 1.4rem;
+    padding: 90px;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#button {
+    background-color: blue;
+    transition: all ease 0.3s;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all ease 0.3s;
+}
+
+#button:hover {
+    background-color: pink;
+    color: black;
+}
+
+#button:active {
+    background-color: yellow;
+    color: pink;
+}
+
+#output,
+#button {
+    padding: 1rem;
+
+}
